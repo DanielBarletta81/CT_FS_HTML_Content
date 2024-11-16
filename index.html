@@ -33,26 +33,68 @@ The page should be structured semantically,
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
+    <!--Task 2.1: Define the Page Structure Use semantic elements to define the basic structure of 
+your web page, including a header, navigation, main content, and a footer.-->
     <body>
-       <h1>Oysters Have a Unique Life History</h1>
-       <div>
-<!--Task 1:  Create an HTML page and embed an image that illustrates 
+        <main>
+        <header>Oyster's Unique Life History</header>
+        <aside>
+            <nav>
+                <button>Home</button>
+                <button>Research</button>
+                <button>About Us</button>
+                <button>Disclosures</button>
+            </nav>
+        </aside>
+      <section>
+        <header>
+       <h1>Oysters are in danger due to climate change.</h1></header>
+       <article>
+<!--Task 1.1:  Create an HTML page and embed an image that illustrates 
 the concept you're teaching.
 
-Add a caption using the <figcaption> element to describe the image.-->
+Task 2.2: Organize Content Using Articles and Sections Within the <main> element, use <article> and <section> tags to organize the content related to your topic. 
+    Use headings (<h2> to <h6>) to title each section or article appropriately.-->
         <figure>
         <img src="oyster.jpeg" alt="oyster">
         <figcaption><i>fig. 1</i> An adult oyster, such as the one shown, can produce millions of spat.</figcaption>
     </figure>
- <!--  Task 2: Include an Instructional Audio Clip Embed an audio clip that provides a brief 
+</article>
+ <!--  Task 1.2: Include an Instructional Audio Clip Embed an audio clip that provides a brief 
 explanation or reading of the concept.
  Ensure the audio is accessible with playback controls.--> 
-    <audio controls>Oyster Life <source src="CT_FS_Audio_Reef.mp3">Oyster Reef Sounds</source></audio>
-       </div>
-       <div>
+ <article>
+    <ul>
+        <li>
+    <h2>Oyster reef audio</h2>
+</li>
+<li>
+    <audio controls>Oyster Life <source src="CT_FS_Audio_Reef.mp3">Oyster Reef Sounds</source>
+    </audio>
+</li>
+</ul>
+
+</article>
+       <article>
+        <ul>
+            <li>  <h2>Educational video about oysters from YouTube</h2></li>
   <!--    Task 3: Integrate an Informative Video Incorporate a video that visually explains the concept.
        The video could be a lecture, an animation, or a documentary clip related to the topic. --> 
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/xNQWzu8yLqM?si=knWlYTmui-_KPbQ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
-    </div>
+     <li> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xNQWzu8yLqM?si=knWlYTmui-_KPbQ6" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+    </li> 
+    </ul>
+ </article>
+    <footer>
+        <h3>This is the footer ++++</h3>
+        <address>Address tag here</address>
+    </footer>
+ <!--   Task 2.3: Enhance Accessibility with Semantic Markup Incorporate additional semantic elements such as <aside> for side content, <figure> and <figcaption> for images, and <address> 
+    for contact information in the footer, to further enhance the page's accessibility.
+-->
+      </section>
+    </main>
     </body>
 </html>
