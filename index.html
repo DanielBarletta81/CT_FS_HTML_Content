@@ -1,27 +1,15 @@
 
-
-
-
-<!--Problem Statement: In an era where digital learning is becoming increasingly prevalent, 
-the traditional text-based delivery of educational content can fail to fully engage students.
- This assignment challenges you to incorporate multimedia elements into an HTML document
-  designed to teach a simple concept (e.g., the water cycle, basic math principles, 
-  or a historical event), thereby improving the learner's engagement and understanding.
-
-
-Task 1: Embed an Educational Image Create an HTML page and embed an image that illustrates 
-the concept you're teaching.
-
-Add a caption using the <figcaption> element to describe the image.
-
+<!--
 Expected Outcome: A web page displaying an image relevant to the educational content, 
 with a caption explaining the image.
 
+Task 2: Include an Instructional Audio Clip Embed an audio clip that provides a brief 
+explanation or reading of the concept.
+ Ensure the audio is accessible with playback controls.
 
-
-Task 2: Include an Instructional Audio Clip Embed an audio clip that provides a brief explanation or reading of the concept. Ensure the audio is accessible with playback controls.
-
-Expected Outcome: A web page with an embedded audio clip that plays an explanation of the chosen concept, complete with controls for play, pause, and volume.
+Sound Effect by <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=24470">freesound_community</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=24470">Pixabay</a>
+Expected Outcome: A web page with an embedded audio clip that plays an explanation of the chosen
+ concept, complete with controls for play, pause, and volume.
 
 Task 3: Integrate an Informative Video Incorporate a video that visually explains the concept. The video could be a lecture, an animation, or a documentary clip related to the topic.
 
@@ -40,16 +28,30 @@ The page should be structured semantically,
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Oyster Life Cycle</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+       <h1>Oysters Have a Unique Life History</h1>
+       <div>
+<!--Task 1:  Create an HTML page and embed an image that illustrates 
+the concept you're teaching.
+
+Add a caption using the <figcaption> element to describe the image.-->
+        <figure>
+        <img src="/Users/dbarletta_mb_pro/Desktop/CT_FS_HTML_Content/oyster.jpeg" alt="oyster">
+        <figcaption><i>fig. 1</i> An adult oyster, such as the one shown, can produce millions of spat.</figcaption>
+    </figure>
+ <!--  Task 2: Include an Instructional Audio Clip Embed an audio clip that provides a brief 
+explanation or reading of the concept.
+ Ensure the audio is accessible with playback controls.--> 
+    <audio controls>Oyster Life <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=24470"></a>  <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=24470">Oyster Reef Sounds</a></audio>
+       </div>
+  <!--    Task 3: Integrate an Informative Video Incorporate a video that visually explains the concept.
+       The video could be a lecture, an animation, or a documentary clip related to the topic. --> 
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/xNQWzu8yLqM?si=knWlYTmui-_KPbQ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
         
-        <script src="" async defer></script>
     </body>
 </html>
